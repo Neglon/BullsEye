@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     var targetValue: Int = 0
     var score = 0
     var round = 0
-    
+
     
     
     
