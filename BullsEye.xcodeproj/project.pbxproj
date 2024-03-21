@@ -13,6 +13,8 @@
 		4DF774522BA3566E0038F017 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DF774502BA3566E0038F017 /* Main.storyboard */; };
 		4DF774542BA3566E0038F017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF774532BA3566E0038F017 /* Assets.xcassets */; };
 		4DF774572BA3566E0038F017 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DF774552BA3566E0038F017 /* LaunchScreen.storyboard */; };
+		4DF774612BAA255E0038F017 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF774602BAA255E0038F017 /* AboutViewController.swift */; };
+		4DF774632BAA2CF70038F017 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 4DF774622BAA2CF70038F017 /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4DF774532BA3566E0038F017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DF774562BA3566E0038F017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DF774582BA3566E0038F017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DF774602BAA255E0038F017 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		4DF774622BAA2CF70038F017 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		4DF774492BA3566E0038F017 /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				4DF774622BAA2CF70038F017 /* BullsEye.html */,
+				4DF774602BAA255E0038F017 /* AboutViewController.swift */,
 				4DF7744A2BA3566E0038F017 /* AppDelegate.swift */,
 				4DF7744C2BA3566E0038F017 /* SceneDelegate.swift */,
 				4DF7744E2BA3566E0038F017 /* ViewController.swift */,
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DF774572BA3566E0038F017 /* LaunchScreen.storyboard in Resources */,
+				4DF774632BAA2CF70038F017 /* BullsEye.html in Resources */,
 				4DF774542BA3566E0038F017 /* Assets.xcassets in Resources */,
 				4DF774522BA3566E0038F017 /* Main.storyboard in Resources */,
 			);
@@ -140,6 +147,7 @@
 			files = (
 				4DF7744F2BA3566E0038F017 /* ViewController.swift in Sources */,
 				4DF7744B2BA3566E0038F017 /* AppDelegate.swift in Sources */,
+				4DF774612BAA255E0038F017 /* AboutViewController.swift in Sources */,
 				4DF7744D2BA3566E0038F017 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +302,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BullsEye/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bull's Eye";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -322,6 +331,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BullsEye/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bull's Eye";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
